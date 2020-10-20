@@ -17,7 +17,7 @@ const A = gql`
 const B = gql`
     query B {
         SiteStatistics {
-            manga {
+            manga { # this has to be different from the field in the first query
                 edges {
                     node {
                         date
